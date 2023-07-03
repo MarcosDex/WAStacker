@@ -2,26 +2,22 @@ const app = require("express")();
 const mysql = require("mysql2");
 
 const connection = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "rng",
+  host: "seu_host",
+  user: "seu_usuario",
+  password: "sua_senha",
+  database: "seu_banco_de_dados",
 });
-
-// app.get("/skills", (req, res) => {
-//   res.send("Javascript and Node");
-// });
 
 app.get("/rng", (req, res) => {
   const numbers = [];
 
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 10; i++) { //Você pode alterar o tanto de numeros sorteados no i < 10
     const randomNumber = Math.floor(Math.random() * 100);
     numbers.push(randomNumber);
   }
 
   const values = numbers.map((number) => [number]);
-  const query = "INSERT INTO numbers (id) VALUES ?";
+  const query = "INSERT INTO nome_da_sua_tabela (nome_da_sua_coluna) VALUES ?";
 
   connection.query(query, [values], (error, results) => {
     if (error) {
