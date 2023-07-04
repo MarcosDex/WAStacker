@@ -1,12 +1,9 @@
 # WAStackerAPI
-![GitHub repo size](https://img.shields.io/github/repo-size/marcosdex/https:/WAStacker?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/marcosdex/WAStacker?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/marcosdex/WAStacker?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/marcosdex/WAStacker?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/github/issues-pr-closed/marcosdex/WAStacker?style=for-the-badge)
 
-## Table of contents
-
-* [Ajustes e melhorias](#Ajustesemelhorias)
 
 
 ### Ajustes e melhorias
