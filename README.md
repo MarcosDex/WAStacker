@@ -1,35 +1,36 @@
 # WAStackerAPI
+
 ![GitHub repo size](https://img.shields.io/github/repo-size/marcosdex/WAStacker?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/marcosdex/WAStacker?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/marcosdex/WAStacker?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/github/issues-pr-closed/marcosdex/WAStacker?style=for-the-badge)
 
-
-
-### Ajustes e melhorias
+### Ajustes e Melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 - [x] Estabelecer conexão e registros para o banco de dados (MYSQL)
 - [x] Integração com os numeros gerados e adicação ao banco de dados
-- [ ] Suporte para novos bancos de dados
-- [ ] UI (visualmente melhorado)
-- [ ] UX (dinamico para adição do seu banco de dados antes de entrar na API)
+- [x] Suporte para novos bancos de dados
+- [x] UI (visualmente melhorado)
+- [x] UX (dinamico para adição do seu banco de dados antes de entrar na API)
 - [ ] Finalizado
 
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
-* Você instalou a versão mais recente de `<Node / Wamp/Xamp / MySQL /  [Wamp/Xamp: 2021/2022 build stable>]`
-* Você tem uma máquina `<Windows>`
-* ### Banco de dados suportados: 
- ``` MySQL ``` 
+
+- Você instalou a versão mais recente de `<Node / express / mysql2 / pg / Wamp/Xamp / MySQL \  [Wamp/Xamp: 2021/2022 <build stable> | Node: >0.6 | Express: ^4.18.2 | mysql2: ^3.4.3 | pg: ^8.11.1]`
+- Você tem uma máquina `<Windows>`
+- ### Banco de dados suportados:
+  `MySQL` `PostregreSQL`
 
 ## 🚀 Instalando Projeto WAStackerAPI
 
 Para instalar a API, siga estas etapas:
 
 Windows:
+
 ```
 git init
 git clone https://github.com/MarcosDex/WAStacker
@@ -37,6 +38,9 @@ git clone https://github.com/MarcosDex/WAStacker
 Abra o terminal (visual studio code = Ctrl + j / Visual studio = Ctrl + ') {Utilize o PowerShell do terminal para executar os proximos comandos}
 npm init -y
 npm install express --save
+npm install pg
+npm install mysql2
+
 ```
 
 ## ☕ Usando a API
@@ -47,7 +51,9 @@ Em breve estará disponibilizado na web para facilitar o acesso.
 ```
 
 ## 📫 Contribuindo para WAStacker
+
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
+
 Para contribuir com a API, siga estas etapas:
 
 1. Bifurque este repositório.
@@ -72,5 +78,3 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
         </sub>
       </a>
     </td>
-   
-

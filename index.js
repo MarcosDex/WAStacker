@@ -2,7 +2,7 @@ const express = require("express");
 const { Client } = require("pg");
 const mysql = require("mysql2");
 const path = require("path");
-
+const port = process.env.PORT || 3000;
 const app = express();
 app.use(express.urlencoded({ extended: true }));
 
@@ -118,4 +118,4 @@ app.post("/rng", (req, res) => {
   }
 });
 
-app.listen(3000, () => console.log("Servidor em execução"));
+app.listen(port, () => console.log("Servidor em execução"));
