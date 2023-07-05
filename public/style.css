@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("photo-1597773150796-e5c14ebecbf5.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  color: #02f1fe;
+  font-family: "Poppins", sans-serif;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 50px solid #000000;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #ffffffa5;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  font-family: "Ubuntu", sans-serif;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  background: #111;
+  padding: 15px 23px;
+  width: 1819px;
+  left: -10px;
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: auto;
+  position: relative;
+  bottom: -20px;
+}
+footer span a {
+  color: crimson;
+  text-decoration: none;
+  position: relative;
+}
+
+footer span a:hover {
+  text-decoration: underline;
+}

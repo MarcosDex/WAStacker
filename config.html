@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Conectar BD</title>
+  </head>
+    <body>
+      <div class="container">
+        <h1>Configuração do Banco de Dados</h1>
+        <form action="/rng" method="post">
+          <label for="dbType">Tipo de Banco de Dados:</label>
+          <select name="dbType" id="dbType" required>
+            <option value="mysql">MySQL</option>
+            <option value="postgres">PostgreSQL</option>
+          </select>
+          <br /><br />
+          <label for="host">Host:</label>
+          <input type="text" name="host" id="host" required /><br /><br />
+
+          <label for="user">Usuário:</label>
+          <input type="text" name="user" id="user" required /><br /><br />
+
+          <label for="database">Nome do Banco de Dados:</label>
+          <input
+            type="text"
+            name="database"
+            id="database"
+            required
+          /><br /><br />
+
+          <label for="tableName">Nome da Tabela:</label>
+          <input
+            type="text"
+            name="tableName"
+            id="tableName"
+            required
+          /><br /><br />
+
+          <label for="columnName">Nome da Coluna:</label>
+          <input
+            type="text"
+            name="columnName"
+            id="columnName"
+            required
+          /><br /><br />
+          <label for="password">Senha:</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Se usando postgres utilize a senha mestre"
+          /> <br></br>
+          <button type="submit">Gerar Numeros Aleatorios</button>
+        </form>
+
+      <footer>
+        <span>Created By <a href="https://github.com/MarcosDex">Marcantonio Santos Silva</a> | <span class="far fa-copyright"></span> 2023 All rights reserved.</span>
+    </footer>
+
+  </div>
+  </body>
+</html>
